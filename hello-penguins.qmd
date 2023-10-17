@@ -1,16 +1,17 @@
 ---
 title: "Hello, Penguins!"
-format: html
+format: pdf
 editor: visual
 ---
 
 ## Data
 
-For this analysis we'll use the penguins dataset from the palmerpenguins R package.
+For this analysis we'll use the **penguins dataset** from the palmerpenguins R package.
 
 ```{r}
 #| label: load-packages
 #| message: false
+#| echo: false
 
 library(tidyverse)
 library(ggthemes)
